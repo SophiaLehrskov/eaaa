@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <title>Erhvervsakademi Aarhus</title>
+    <link rel="stylesheet" href="style.css">
+   
+<!-- Her koder vi vores favicon der vises i fanebladet-->
+    <link rel="icon" type="image/png" href="img/logo.png"/>
+
+    <!-- Her har vi inkluderet vores SEO-afsnit -->
+    <meta name="description" content="Erhvervsakademi Aarhus er en uddannelsesinstitution baseret i Aarhus V. Her er hands-on i fokus, så de studerende bliver ordentligt klædt på til arbejdsmarkedet.">
+    <meta name="keywords" content="Erhvervsakademi Aarhus, Aarhus, uddannelse, videreuddannelse, erhverv, studieliv, studerende, it, landbrug, handel, markedsføring, social, studietid, skole, campus, Viby, Hasselager, multimediedesigner, multimediedesign, økonomi, sociale medier, facebook, instagram, twitter, EAAA, studievalg, ansøgning, kvote 1, kvote 2, studiestart, U-Days, Sønderhøj, Ringvej Syd, Guldtanden, campuser, praktik, praktikplads, universitetet, studieby, erhvervsakademiuddannelse, professionsbachelor, professionsbacheloruddanelse.">
+
+</head>
+<header>
+
+    <!-- Her starter vores kode. Logo i venstre hjørne der-->
+    <div class="tilbage">
+        <a href="index.html">
+      <img class="logo" src="img/logo.png" alt="pil" height="200px">
+      </a>
+      </div>      
+</header>
+
+<body>
+
+<!-- Vi tager udgangspunkt i parallax gennem hele vores side. På forsiden, har vi kodet skolen navn vhs. js, for at gøre den dynamisk -->
+<div class="parallax">
+    <div class="tale"><img src="img/taleboble2.png" alt="" width="50%" height="50%"></div>
+    <h1 class="ml15">
+        <span class="word">Erhvervsakademi </span> <br>
+        <span class="word">Aarhus ?</span>
+      </h1>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      
+      <!-- Vi har inkluderet gif's gennem hele sitet, for at skabe dynamik-->
+        <div class="holly">
+            <img src="img/holly.gif" alt="detskaldu" width="300px" >
+        </div>
+      <div class="down">
+          <img src="img/downok.gif" alt="" width="6%" height="6%">
+      </div>
+</div>
+
+<!-- Her starter først underside -->
+<div class="outer-wrapper">
+    <div class="wrapper">
+       
+        <div class="slide one">
+            <img class="udråbstegn" src="img/udraabstegn 2.gif" alt="udråbstegn" height="200px">
+            <div class="fordi">
+                <p>
+                     ... Fordi det sociale er i højsædet   
+                </p>
+            </div>
+
+     <div class="row">
+        <div class="column">
+      
+            <!-- Video. Videoen afspiller automatisk, da den er muted -->
+            <div class="social">
+            <video width="620" height="540" loop="true" autoplay="autoplay" muted>
+                <source src="socialt.mp4" type="video/mp4">
+                <source src="socialt.ogg" type="video/ogg">
+              </video>
+            </div>
+
+        </div>
+        <div class="column">
+                <p>På Erhvervsakademi Aarhus har vi fællesskabet i centrum. 
+                I samarbejde med de studerende, arrangerer vi løbende sociale arrangementer. <br>
+                Og på vores egen bar, Basement, er der altid kolde øl og god stemning.</p>      
+        </div>
+
+        <div class="citat">
+            <p> "Inden jeg startede på <br> Erhvervsakademi Aarhus, <br> var jeg bange for, ikke at få <br> en fed studietid, fordi <br> jeg ikke passede ind."</p>
+        </div>
+
+         <!-- Video. Videoen afspiller automatisk, da den er muted -->
+        <div class="boldt">
+            <video width="620" height="540" loop="true" autoplay="autoplay" muted>
+                <source src="Udkast.mp4" type="video/mp4">
+                <source src="Udkast.mp4" type="video/ogg">
+              </video>
+            </div>
+
+        </div>
+        </div>
+   
+<!--start på side nr 3-->
+            <div class="slide two">
+<!--Overskift på siden-->
+                    <div class="fordi1">
+                        <p>
+                            MØD MDU ELEV
+                        </p>
+                    </div>
+<!--Lyd til claras historie - lavet med javascript så den kan starte og stoppe med klik-->
+                    <div class="historie">
+                        <p>LYT TIL CLARAS HISTORIE HER</p> 
+                        <div class="lyd">
+                            <img id="startOrStopImg" src="img/lyd.png" alt="Play Button" height="8%" width="8%">
+                            <audio id="audio" src="audio/france.mp3" type="audio/mp3" >
+                            Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                    
+<!--Billede med op Claras oplysninger-->
+                    <div class="infopot">
+                       <img src="img/infopot.png" alt="infopot" width="430px" height="220px">
+                    </div>
+<!--Billede af Clara-->
+                <div class="polarid">
+                    <img src="img/clara.png" alt="billede af clara" width="50%" height="50%">
+                </div>
+<!--Gif af blyant-->
+                <div class="blyanten">
+                    <img src="img/blyant.gif" alt="blyant" width="30%" height="30%">
+                </div>
+<!--Citater på siden -->
+                <div class="citat1">
+                    <p> "Jeg var virkelig nervøs <br> lige før skolestart."</p>
+                </div>
+
+                <div class="citat2">
+                    <p>"Arrangementerne på skolen <br> er en god mulighed for, <br> at lære sine klassekammerater <br> at kende."</p>
+                </div>
+            </div>
+<!--Start på side nr 4-->
+            <div class="slide three1">  
+<!--Overskift på siden-->
+                <div class="fordi1">
+                    <p>
+                        MØD ØKIT ELEV
+                    </p>
+                </div>
+<!--Lyd til Tobias' historie - lavet med javascript så den kan starte og stoppe med klik-->
+                <div class="historie">
+                    <p>LYT TIL TOBIAS' HISTORIE HER</p> 
+                    <div class="lyd">
+                        <img id="startOrStopImg1" src="img/lyd.png" alt="Play Button" height="8%" width="8%">
+                        <audio id="audio1" src="audio/france.mp3" type="audio/mp3" >
+                        Your browser does not support the audio element.
+                        </audio>
+                    </div>
+<!--Billede med informationer om Tobias-->
+                    <div class="infopot1">
+                        <img src="img/infopot1.png" alt="infopot" width="430px" height="220px">
+                     </div>
+                </div>
+<!--Billede af tobias-->
+                <div class="polarid1">
+                    <img src="img/tobias.png" alt="billede af cl6ra" width="50%" height="50%">
+                </div>
+ <!--Citater fra tobias-->           
+                <div class="citat3">
+                    <p>"Det er nemmere at komme til lærerne <br> med spørgsmål fremfor hvis man sidder <br> i en forelæsningssal med 200 elever."</p>
+                </div>
+                <div class="citat4">
+                    <p>"Man arbejder mere praktisk <br>  og virksomhedsnært på EAAA"</p>
+                </div>
+
+
+                
+            </div>
+<!--Start på side nr 5-->
+            <div class="slide three2">
+<!--Gif øverst på siden med udråbstegn-->
+                <img class= "udråbstegn" src="img/pile.gif" alt="pil" height="200px">
+<!--Overskift på siden-->
+                <div class="fordi">
+                    <p>
+                        ... Fordi faciliteterne er i top
+                    </p> 
+                </div>
+<!--Video på siden med faciliteter-->
+                <div class="row">
+                    <div class="column">
+
+                    <div class="social1">
+                        <video width="620" height="540" loop="true" autoplay="autoplay" muted>
+                        <source src="fac.mp4" type="video/mp4">
+                        <source src="fac.mp4" type="video/ogg">
+                      </video>
+                    </div>
+                    </div>
+<!--Citater på siden omkring faciliteter-->
+                    <div class="column1">
+                        <p>Som studerende på Erhvervsakademi Aarhus, vil du have din daglige gang <br>
+                            på et af vores tre topmoderne campuser. <br>
+                            Derudover vil du få adgang til vores mange, fede faciliteter som fx. ProtoLab og biblioteket.</p>      
+                    </div>
+
+                    <div class="citat02">
+                        <p> "Som studerende  <br> et det fedt, at <br> have mulighed  for <br>  at kunne gøre brug <br> af alle skolens faciliteter."</p>
+                    </div>
+<!--Video af kam der vipper der stater automatisk-->
+                    <div class="kam">
+                        <video width="420" height="340" loop="true" autoplay="autoplay" muted>
+                            <source src="kam.mp4" type="video/mp4">
+                            <source src="kam.mp4" type="video/ogg">
+                          </video> 
+                    </div>
+                </div>
+            </div>
+
+<!--Start på side 6-->
+            <div class="slide three9">
+<!--Overskift på siden - lavet med javascript-->
+     <div class="row">
+        <h1 class="ml11">
+            <span class="text-wrapper">
+              <span class="line line1"></span>
+              <span class="letters">VI SES PÅ ERHVERVSAKADEMI AARHUS</span>
+            </span>
+          </h1>
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<!--Gif og links til sociale medier -->
+         <div class="facebook">
+            <a href="https://www.facebook.com/akademiaarhus/">
+          <img class="facebook" src="img/facebook.gif" alt="facebook" width="10%" height="10%">
+          </a>
+          
+         
+            <a href="https://www.instagram.com/erhvervsakademiaarhus/">
+          <img class="facebook" src="img/instagram.gif" alt="instagram" width="10%" height="10%">
+          </a>
+          
+          
+            <a href="https://twitter.com/eaaadk?lang=da">
+          <img class="facebook" src="img/twitter.gif" alt="twitter" width="10%" height="10%">
+          </a>
+        </div>
+
+        </div>
+        
+    </div>
+</div>
+
+</div>
+<!--Link til javascript-->
+<script src="java.js"></script>
+</body>
+</html>
